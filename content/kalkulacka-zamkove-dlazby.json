@@ -1,0 +1,73 @@
+{
+ "category": "zahrada",
+ "h1": "Kalkulačka zámkové dlažby",
+ "title": "Kalkulačka zámkové dlažby – dlažba, štěrk, drť a obrubníky",
+ "description": "Spočítejte materiál na zámkovou dlažbu: m² dlažby s prořezem, tuny štěrku do podkladu, drť do lože a počet obrubníků.",
+ "lead": "Dlažba s prořezem, štěrk do podkladu, drť do lože a obrubníky na chodník, terasu nebo příjezd.",
+ "inputs": [
+  {
+   "id": "plocha",
+   "label": "Plocha dlažby",
+   "unit": "m²",
+   "default": 30,
+   "step": 0.5
+  },
+  {
+   "id": "podklad",
+   "label": "Typ plochy",
+   "type": "select",
+   "default": 20,
+   "options": [
+    {
+     "value": 15,
+     "label": "Chodník, terasa (podklad 15 cm)"
+    },
+    {
+     "value": 20,
+     "label": "Příjezd pro osobní auta (podklad 20 cm)"
+    },
+    {
+     "value": 30,
+     "label": "Pojezd těžších vozidel (podklad 30 cm)"
+    }
+   ]
+  },
+  {
+   "id": "loze",
+   "label": "Tloušťka lože z drti",
+   "unit": "cm",
+   "default": 4,
+   "step": 1
+  },
+  {
+   "id": "obvod",
+   "label": "Délka obrubníků",
+   "unit": "m",
+   "default": 22,
+   "step": 0.5,
+   "hint": "Obvod plochy, kde budou obrubníky."
+  },
+  {
+   "id": "prorez",
+   "label": "Prořez dlažby",
+   "unit": "%",
+   "default": 5,
+   "step": 1
+  }
+ ],
+ "article": "<h2>Skladba podkladu pod zámkovou dlažbu</h2>\n<p>Životnost dlažby rozhoduje podklad, ne samotné kostky. Typická skladba shora dolů:</p>\n<ol><li><b>Zámková dlažba</b> – 4–6 cm pro chodníky, 6–8 cm pro pojezd aut</li>\n<li><b>Lože z drti</b> frakce 4–8 mm, tloušťka 3–5 cm (nepoužívejte písek – vyplavuje se)</li>\n<li><b>Nosná vrstva ze štěrkodrti</b> frakce 0–32 nebo 0–63 mm, hutněná po vrstvách 10 cm</li>\n<li>Geotextilie na upravenou a zhutněnou zeminu</li></ol>\n<h2>Přepočet m³ na tuny</h2>\n<p>Kamenivo se prodává v tunách. Pro výpočet se používá objemová hmotnost asi <b>1,6 t/m³</b> pro drť a štěrk; protože se nosná vrstva hutní, přidává se k ní zhruba 20 % materiálu navíc. Kalkulačka už obojí započítává.</p>\n<h2>Obrubníky</h2>\n<p>Obrubníky drží dlažbu na místě, bez nich se okraje časem rozjedou. Standardní parkový obrubník má délku 1 m a osazuje se do betonového lože s opěrou – počítejte asi 0,05 m³ betonu na 1 metr obrubníku.</p>",
+ "faq": [
+  {
+   "q": "Kolik štěrku pod zámkovou dlažbu?",
+   "a": "Pro chodník asi 15 cm hutněné štěrkodrti, pro příjezd aut 20–30 cm. Na 10 m² příjezdu je to zhruba 3,8 tuny."
+  },
+  {
+   "q": "Proč nedávat pod dlažbu písek?",
+   "a": "Písek se vodou vyplavuje a dlažba se pak propadá a vlní. Drť 4–8 mm je stabilnější a dobře propouští vodu."
+  },
+  {
+   "q": "Kolik dlažby koupit navíc?",
+   "a": "Při rovné ploše bez oblouků 3–5 %, při mnoha výřezech, obloucích a kruhových vzorech 8–10 %."
+  }
+ ]
+}

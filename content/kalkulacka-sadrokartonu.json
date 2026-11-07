@@ -1,0 +1,69 @@
+{
+ "category": "hruba-stavba",
+ "h1": "Kalkulačka sádrokartonu na příčku",
+ "title": "Kalkulačka sádrokartonu – desky, profily CW/UW a šrouby na příčku",
+ "description": "Spočítejte materiál na sádrokartonovou příčku: počet desek, profilů CW a UW, šroubů, tmelu a izolace podle délky a výšky stěny.",
+ "lead": "Desky, profily CW a UW, šrouby, tmel a izolace na sádrokartonovou příčku.",
+ "inputs": [
+  {
+   "id": "delka",
+   "label": "Délka příčky",
+   "unit": "m",
+   "default": 4,
+   "step": 0.1
+  },
+  {
+   "id": "vyska",
+   "label": "Výška příčky",
+   "unit": "m",
+   "default": 2.6,
+   "step": 0.05
+  },
+  {
+   "id": "vrstvy",
+   "label": "Opláštění na každé straně",
+   "type": "select",
+   "default": 1,
+   "options": [
+    {
+     "value": 1,
+     "label": "1 vrstva desek"
+    },
+    {
+     "value": 2,
+     "label": "2 vrstvy desek (lepší zvuková izolace)"
+    }
+   ]
+  },
+  {
+   "id": "deska",
+   "label": "Plocha jedné desky",
+   "unit": "m²",
+   "default": 2.5,
+   "step": 0.1,
+   "hint": "Deska 1250 × 2000 mm = 2,5 m², 1250 × 2600 mm = 3,25 m²."
+  },
+  {
+   "id": "rozteč",
+   "label": "Rozteč profilů CW",
+   "unit": "cm",
+   "default": 62.5,
+   "step": 0.5
+  }
+ ],
+ "article": "<h2>Z čeho se skládá sádrokartonová příčka</h2>\n<p>Příčka má kovovou konstrukci z <b>vodicích profilů UW</b> (připevněné k podlaze a stropu) a <b>svislých profilů CW</b>, které se do nich zasouvají v rozteči obvykle 62,5 cm. Na konstrukci se z obou stran šroubují sádrokartonové desky a dutina se vyplní minerální izolací kvůli zvukové izolaci.</p>\n<h2>Jaký profil a jakou desku zvolit</h2>\n<table><tr><th>Výška příčky</th><th>Profil</th><th>Celková tloušťka (1 vrstva)</th></tr>\n<tr><td>do 3,0 m</td><td>CW/UW 50</td><td>75 mm</td></tr>\n<tr><td>do 4,0 m</td><td>CW/UW 75</td><td>100 mm</td></tr>\n<tr><td>do 5,0 m</td><td>CW/UW 100</td><td>125 mm</td></tr></table>\n<p>Do koupelny a kuchyně patří zelené <b>impregnované desky (H2)</b>, na únikové cesty a k technologiím červené <b>protipožární (DF)</b>. Pro běžný pokoj stačí bílá standardní deska tloušťky 12,5 mm.</p>\n<h2>Spotřeba drobného materiálu</h2>\n<ul><li><b>Šrouby do sádrokartonu:</b> cca 15 ks/m² pro jednu vrstvu desek na jedné straně</li>\n<li><b>Spárovací tmel:</b> cca 0,3–0,4 kg/m² pohledové plochy</li>\n<li><b>Výztužná páska:</b> cca 1,5 m/m²</li>\n<li><b>Hmoždinky do UW profilů:</b> po 50 cm, minimálně 3 ks na profil</li></ul>",
+ "faq": [
+  {
+   "q": "Kolik desek sádrokartonu na 1 m² příčky?",
+   "a": "Při jednoduchém opláštění z obou stran 2 m² desek na 1 m² příčky, tedy asi 0,8 desky 1250 × 2000 mm. K tomu přidejte 10 % na prořez."
+  },
+  {
+   "q": "Jakou rozteč mají profily CW?",
+   "a": "Standardně 62,5 cm, tedy polovina šířky desky. Pod obklady a při dvojitém opláštění se někdy volí 41,7 cm."
+  },
+  {
+   "q": "Musím do příčky dávat izolaci?",
+   "a": "Není to nutné pro statiku, ale bez minerální vlny příčka zní jako buben a přes zeď je slyšet téměř vše. Izolace stojí málo a vyplatí se."
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+{
+ "category": "hruba-stavba",
+ "h1": "Kalkulačka betonu",
+ "title": "Kalkulačka betonu – kolik m³ betonu a pytlů cementu potřebuji",
+ "description": "Spočítejte objem betonu na desku, základový pás nebo patky. Kalkulačka ukáže m³, počet pytlů suché směsi, cementu i množství štěrkopísku.",
+ "lead": "Objem betonu na desku, základový pás nebo patky – v m³, pytlích suché směsi i cementu.",
+ "inputs": [
+  {
+   "id": "delka",
+   "label": "Délka",
+   "unit": "m",
+   "default": 5,
+   "step": 0.1
+  },
+  {
+   "id": "sirka",
+   "label": "Šířka",
+   "unit": "m",
+   "default": 4,
+   "step": 0.1,
+   "hint": "U základového pásu zadejte šířku pásu."
+  },
+  {
+   "id": "tloustka",
+   "label": "Tloušťka / hloubka",
+   "unit": "cm",
+   "default": 15,
+   "step": 1
+  },
+  {
+   "id": "pocet",
+   "label": "Počet stejných kusů",
+   "unit": "ks",
+   "default": 1,
+   "step": 1,
+   "min": 1,
+   "hint": "Např. počet patek pod plot nebo terasu."
+  },
+  {
+   "id": "rezerva",
+   "label": "Rezerva",
+   "unit": "%",
+   "default": 5,
+   "step": 1
+  }
+ ],
+ "article": "<h2>Jak se počítá objem betonu</h2>\n<p>Objem betonu je jednoduše <b>délka × šířka × tloušťka</b>. Deska 5 × 4 m o tloušťce 15 cm tedy potřebuje 5 × 4 × 0,15 = 3 m³ betonu. Ke spočítanému objemu vždy přidejte rezervu 5–10 %, protože bednění není nikdy úplně rovné, podklad trochu „pije“ a část betonu zůstane v míchačce.</p>\n<h2>Hotový beton, suchá směs, nebo vlastní míchání?</h2>\n<table><tr><th>Objem</th><th>Doporučení</th></tr>\n<tr><td>do 0,3 m³</td><td>pytlovaná suchá betonová směs – nejjednodušší, stačí přidat vodu</td></tr>\n<tr><td>0,3–2 m³</td><td>vlastní míchání z cementu a štěrkopísku v míchačce</td></tr>\n<tr><td>nad 2 m³</td><td>objednat transportbeton z betonárny (autodomíchávač)</td></tr></table>\n<p>Na 1 m³ betonu třídy C16/20 se při ručním míchání počítá zhruba <b>300 kg cementu</b> (12 pytlů po 25 kg), <b>1,9 t štěrkopísku</b> frakce 0–16 mm a asi <b>170 litrů vody</b>. Suché betonové směsi se spotřebuje přibližně 2 100 kg na 1 m³, tedy 84 pytlů po 25 kg.</p>\n<h2>Jakou tloušťku zvolit</h2>\n<ul><li><b>Chodník nebo podklad pod zahradní domek:</b> 10–12 cm</li>\n<li><b>Terasa, podlahová deska v garáži:</b> 15 cm s kari sítí</li>\n<li><b>Příjezdová cesta pro auta:</b> 15–20 cm s výztuží</li>\n<li><b>Základový pás rodinného domu:</b> podle projektu, obvykle šířka 40–60 cm a hloubka do nezámrzné hloubky 80–120 cm</li></ul>",
+ "faq": [
+  {
+   "q": "Kolik pytlů cementu je na 1 m³ betonu?",
+   "a": "Pro běžný beton C16/20 asi 12 pytlů cementu po 25 kg (300 kg) a k tomu zhruba 1,9 tuny štěrkopísku a 170 litrů vody."
+  },
+  {
+   "q": "Kolik váží 1 m³ betonu?",
+   "a": "Čerstvý hutný beton váží přibližně 2 300–2 400 kg na 1 m³, železobeton kolem 2 500 kg."
+  },
+  {
+   "q": "Kolik stojí 1 m³ betonu z betonárny?",
+   "a": "Cena se liší podle regionu a třídy betonu, k ceně betonu se navíc připočítává doprava autodomíchávačem a případně čerpadlo. Vyplatí se poptat více betonáren."
+  }
+ ]
+}

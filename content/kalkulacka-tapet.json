@@ -1,0 +1,62 @@
+{
+ "category": "malovani",
+ "h1": "Kalkulačka tapet",
+ "title": "Kalkulačka tapet – kolik rolí tapety potřebuji",
+ "description": "Spočítejte počet rolí tapet podle obvodu místnosti, výšky stěn a střídy vzoru. Funguje pro standardní i široké role.",
+ "lead": "Počet rolí tapety podle rozměrů stěn a střídy vzoru.",
+ "inputs": [
+  {
+   "id": "sirkasteny",
+   "label": "Celková šířka tapetovaných stěn",
+   "unit": "m",
+   "default": 8,
+   "step": 0.1,
+   "hint": "Celý pokoj = obvod místnosti."
+  },
+  {
+   "id": "vyska",
+   "label": "Výška stěny",
+   "unit": "m",
+   "default": 2.6,
+   "step": 0.05
+  },
+  {
+   "id": "sirkarole",
+   "label": "Šířka role",
+   "unit": "m",
+   "default": 0.53,
+   "step": 0.01,
+   "hint": "Standard 0,53 m, široké role 1,06 m."
+  },
+  {
+   "id": "delkarole",
+   "label": "Délka role",
+   "unit": "m",
+   "default": 10.05,
+   "step": 0.05
+  },
+  {
+   "id": "strida",
+   "label": "Střída vzoru (raport)",
+   "unit": "cm",
+   "default": 0,
+   "step": 1,
+   "hint": "Bez vzoru nebo volné napojení = 0."
+  }
+ ],
+ "article": "<h2>Jak se počítá počet rolí</h2>\n<p>Tapety se nepočítají podle m², ale podle <b>počtu pruhů</b>. Nejdřív zjistíte, kolik pruhů vedle sebe pokryje stěnu (šířka stěn ÷ šířka role), a pak, kolik celých pruhů nařežete z jedné role. Zbytky role kratší než výška stěny se už nedají použít – proto výpočet podle plochy vychází vždy příliš optimisticky.</p>\n<p>Ke každému pruhu se přidává asi 5 cm na zaříznutí u stropu a podlahy. U vzorovaných tapet se navíc přičítá <b>střída (raport)</b> – délka, po které se vzor opakuje. Najdete ji na etiketě role.</p>\n<h2>Okna a dveře</h2>\n<p>Okna a dveře se při výpočtu obvykle neodečítají – ušetřený materiál pokryje prořez kolem otvorů a chyby při lepení. Odečítat se vyplatí jen u velkých prosklených ploch nebo balkonových dveří.</p>\n<h2>Kolik lepidla</h2>\n<p>Jedno balení lepidla na tapety obvykle vystačí na 4–6 rolí papírové tapety nebo 25–35 m² vliesové tapety. U vliesových tapet se lepidlo nanáší na stěnu, ne na tapetu.</p>",
+ "faq": [
+  {
+   "q": "Kolik rolí tapety na pokoj?",
+   "a": "Pro pokoj 4 × 3 m (obvod 14 m) s výškou 2,6 m a standardní rolí 0,53 × 10,05 m potřebujete 9 rolí bez vzoru, se vzorem obvykle 10–11."
+  },
+  {
+   "q": "Co je střída tapety?",
+   "a": "Střída (raport) je vzdálenost, po které se vzor na tapetě opakuje. Čím je větší, tím víc materiálu se spotřebuje na napojení vzoru."
+  },
+  {
+   "q": "Mám koupit roli navíc?",
+   "a": "Ano, doporučujeme jednu roli navíc ze stejné šarže pro případ chyby nebo pozdější opravy."
+  }
+ ]
+}

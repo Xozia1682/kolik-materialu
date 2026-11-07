@@ -1,0 +1,72 @@
+{
+ "category": "povrchy",
+ "h1": "Kalkulačka plovoucí podlahy",
+ "title": "Kalkulačka plovoucí podlahy – balení laminátu, vinylu, podložky a lišt",
+ "description": "Kolik balení laminátové nebo vinylové podlahy koupit? Zadejte rozměry místnosti a kalkulačka spočítá balení, podložku i soklové lišty.",
+ "lead": "Balení laminátu nebo vinylu, podložka a soklové lišty podle rozměrů místnosti.",
+ "inputs": [
+  {
+   "id": "delka",
+   "label": "Délka místnosti",
+   "unit": "m",
+   "default": 5,
+   "step": 0.1
+  },
+  {
+   "id": "sirka",
+   "label": "Šířka místnosti",
+   "unit": "m",
+   "default": 4,
+   "step": 0.1
+  },
+  {
+   "id": "baleni",
+   "label": "m² v jednom balení",
+   "unit": "m²",
+   "default": 2.22,
+   "step": 0.01
+  },
+  {
+   "id": "prorez",
+   "label": "Způsob pokládky",
+   "type": "select",
+   "default": 7,
+   "options": [
+    {
+     "value": 7,
+     "label": "Rovně, podél místnosti (+7 %)"
+    },
+    {
+     "value": 10,
+     "label": "Rovně, členitá místnost (+10 %)"
+    },
+    {
+     "value": 15,
+     "label": "Diagonálně nebo rybí kost (+15 %)"
+    }
+   ]
+  },
+  {
+   "id": "dvere",
+   "label": "Počet dveří v místnosti",
+   "unit": "ks",
+   "default": 1,
+   "step": 1
+  }
+ ],
+ "article": "<h2>Jak spočítat plovoucí podlahu</h2>\n<p>Změřte délku a šířku místnosti a vynásobte je. U místností tvaru L ji rozdělte na dva obdélníky a plochy sečtěte. K ploše přidejte <b>prořez</b> – při rovné pokládce stačí 5–7 %, protože odřezek z konce řady se dá použít na začátek další. Při pokládce na diagonálu nebo do rybí kosti počítejte 15 %.</p>\n<h2>Podložka a parozábrana</h2>\n<p>Pod laminát patří vždy podložka, která tlumí kročejový hluk a vyrovná drobné nerovnosti. Na betonový podklad nebo anhydrit se navíc pokládá <b>parozábrana</b> (PE fólie 0,2 mm) s přesahem 20 cm. Některé podložky ji už mají v sobě. Vinylové podlahy s integrovanou podložkou další podložku většinou nepotřebují – zkontrolujte návod výrobce.</p>\n<h2>Soklové lišty</h2>\n<p>Délka lišt odpovídá obvodu místnosti minus šířka dveří (cca 0,9 m na dveře). Lišty se prodávají obvykle po 2,4–2,5 m; kalkulačka přidává jednu lištu navíc na rohy a prořez.</p>",
+ "faq": [
+  {
+   "q": "Kolik laminátu koupit navíc?",
+   "a": "Při rovné pokládce 5–7 %, v členitých místnostech 10 % a při diagonální pokládce 15 %."
+  },
+  {
+   "q": "Musí se podlaha nechat aklimatizovat?",
+   "a": "Ano, laminát i dřevo nechte v místnosti v neotevřených baleních aspoň 48 hodin, aby se přizpůsobily teplotě a vlhkosti."
+  },
+  {
+   "q": "Jaká má být mezera u stěny?",
+   "a": "Plovoucí podlaha potřebuje dilatační mezeru 8–10 mm podél všech stěn, zárubní a trubek. Zakryje ji soklová lišta."
+  }
+ ]
+}

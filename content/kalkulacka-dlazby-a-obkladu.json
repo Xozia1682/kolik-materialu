@@ -1,0 +1,82 @@
+{
+ "category": "povrchy",
+ "h1": "Kalkulačka dlažby a obkladů",
+ "title": "Kalkulačka dlažby a obkladů – počet dlaždic, lepidla a spárovačky",
+ "description": "Kolik dlaždic, balení, lepidla a spárovací hmoty koupit? Zadejte plochu a rozměr dlaždice, kalkulačka připočte i prořez.",
+ "lead": "Počet dlaždic a balení včetně prořezu, spotřeba lepidla a spárovací hmoty.",
+ "inputs": [
+  {
+   "id": "plocha",
+   "label": "Plocha k obložení",
+   "unit": "m²",
+   "default": 12,
+   "step": 0.1
+  },
+  {
+   "id": "delka",
+   "label": "Délka dlaždice",
+   "unit": "cm",
+   "default": 60,
+   "step": 1
+  },
+  {
+   "id": "sirka",
+   "label": "Šířka dlaždice",
+   "unit": "cm",
+   "default": 30,
+   "step": 1
+  },
+  {
+   "id": "baleni",
+   "label": "m² v jednom balení",
+   "unit": "m²",
+   "default": 1.44,
+   "step": 0.01,
+   "hint": "Najdete na krabici nebo v e-shopu."
+  },
+  {
+   "id": "prorez",
+   "label": "Prořez",
+   "unit": "%",
+   "default": 10,
+   "step": 1,
+   "hint": "Rovná pokládka 10 %, diagonální 15 %."
+  },
+  {
+   "id": "lepidlo",
+   "label": "Spotřeba lepidla",
+   "unit": "kg/m²",
+   "default": 4,
+   "step": 0.5
+  },
+  {
+   "id": "spara",
+   "label": "Šířka spáry",
+   "unit": "mm",
+   "default": 3,
+   "step": 0.5
+  },
+  {
+   "id": "tloustka",
+   "label": "Tloušťka dlaždice",
+   "unit": "mm",
+   "default": 9,
+   "step": 1
+  }
+ ],
+ "article": "<h2>Jak spočítat počet dlaždic</h2>\n<p>Nejdřív změřte plochu podlahy nebo stěny v m² a odečtěte okna a dveře. K ploše připočtěte <b>prořez</b>: při rovné pokládce 10 %, při diagonální nebo vzorované pokládce 15 % a u velkoformátových dlaždic v malé koupelně klidně i víc. Několik dlaždic navíc se hodí i do zásoby – za pár let už stejnou sérii nekoupíte.</p>\n<h2>Spotřeba lepidla podle velikosti dlaždice</h2>\n<table><tr><th>Formát dlaždice</th><th>Zubová stěrka</th><th>Spotřeba lepidla</th></tr>\n<tr><td>do 20 × 20 cm</td><td>6 mm</td><td>cca 2,5–3 kg/m²</td></tr>\n<tr><td>30 × 30 až 30 × 60 cm</td><td>8 mm</td><td>cca 3,5–4 kg/m²</td></tr>\n<tr><td>60 × 60 cm a větší</td><td>10–12 mm</td><td>cca 5–6 kg/m²</td></tr></table>\n<p>U velkých formátů a na podlahu s podlahovým topením se lepidlo nanáší i na rub dlaždice (oboustranné lepení), spotřeba pak roste asi o třetinu.</p>\n<h2>Jak se počítá spárovací hmota</h2>\n<p>Spotřeba spárovačky závisí na rozměru dlaždice, šířce a hloubce spáry. Používá se vzorec <b>(A + B) / (A × B) × šířka spáry × hloubka spáry × 1,6</b>, kde A a B jsou rozměry dlaždice v mm. Čím menší dlaždice a širší spára, tím víc hmoty spotřebujete.</p>",
+ "faq": [
+  {
+   "q": "Kolik procent dlažby koupit navíc?",
+   "a": "Při rovné pokládce 10 %, při diagonální 15 %. U malých místností s mnoha rohy a výřezy počítejte spíše s horní hranicí."
+  },
+  {
+   "q": "Kolik lepidla na 1 m² dlažby?",
+   "a": "Pro běžné dlaždice 30 × 60 cm asi 4 kg/m². Pytel 25 kg tedy vystačí přibližně na 6 m²."
+  },
+  {
+   "q": "Mám kupovat dlažbu z jedné šarže?",
+   "a": "Ano. Dlaždice z různých výrobních šarží se mohou lišit odstínem i rozměrem, proto kupte celé množství najednou."
+  }
+ ]
+}
